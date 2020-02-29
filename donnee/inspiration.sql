@@ -43,28 +43,23 @@ INSERT INTO `pensee` (`idPensee`, `auteur`, `message`) VALUES
 (2, 'George Orwell', 'The Truth is Heresy in the Empire of lies.'),
 (3, 'St-Exupéry', 'Faites que le rêve dévore votre vie afin que la vie ne dévore pas votre rêve.'),
 (4, 'Leonardo da Vinci', 'Once you have tasted the taste of sky, you will forever look up.\r\n');
-
 --
 -- Index pour les tables déchargées
 --
-
 --
 -- Index pour la table `pensee`
 --
 ALTER TABLE `pensee`
   ADD PRIMARY KEY (`idPensee`);
-
 --
 -- AUTO_INCREMENT pour les tables déchargées
 --
-
 --
 -- AUTO_INCREMENT pour la table `pensee`
 --
 ALTER TABLE `pensee`
   MODIFY `idPensee` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
