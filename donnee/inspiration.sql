@@ -31,18 +31,17 @@ SET time_zone = "+00:00";
 CREATE TABLE `pensee` (
   `idPensee` int(11) NOT NULL,
   `auteur` varchar(255) NOT NULL,
-  `message` text NOT NULL
+  `message` text NOT NULL,
+  `annee` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `pensee`
 --
 
-INSERT INTO `pensee` (`idPensee`, `auteur`, `message`) VALUES
-(1, 'Douglas Kennedy', 'L\'expérience est le mot par lequel les hommes désignent leurs erreurs.'),
-(2, 'George Orwell', 'The Truth is Heresy in the Empire of lies.'),
-(3, 'St-Exupéry', 'Faites que le rêve dévore votre vie afin que la vie ne dévore pas votre rêve.'),
-(4, 'Leonardo da Vinci', 'Once you have tasted the taste of sky, you will forever look up.\r\n');
+INSERT INTO `pensee` (`idPensee`, `auteur`, `message`, `annee`) VALUES
+(2, 'George Orwell', 'The Truth is Heresy in the Empire of lies.', 1970),
+(4, 'Leonardo da Vinci', 'Once you have tasted the taste of sky, you will forever look up.\r\n', 1500);
 --
 -- Index pour les tables déchargées
 --
